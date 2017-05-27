@@ -1,7 +1,7 @@
 <?php
 
-$recepient = "alexbarsukov@hotmail.com";
-$sitename = "e98858n6.beget.tech";
+$recepient = "webtechcoursework@1gb.ru";
+$sitename = "webtechcoursework.ru";
 
 $name = trim($_GET["name"]);
 $phone = trim($_GET["phone"]);
