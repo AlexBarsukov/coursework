@@ -317,4 +317,13 @@ font-size: 50px;
 	/*font-family: "RobotoCondensedBold";*/
 	text-transform: uppercase;
 }
+/*Картинки сотрудников*/
+.image_about {
+ overflow:hidden;
+ border-radius: 100px;
+ 
+ }
+ .text_sotr{
+ 	padding-top: 0;
+ }
 
