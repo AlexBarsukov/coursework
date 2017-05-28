@@ -118,7 +118,20 @@ $('div').each(function(){
 		});
 		return false;
 	});
-
+//загрузка договора
+$("#dogovor").submit(function() {
+		$.ajax({
+			type: "GET",
+			url: "download.php",
+			data: $("#dogovor").serialize()
+		}).done(function() {
+			alert("Договор загружен");
+			setTimeout(function() {
+				$.fancybox.close();
+			}, 1000);
+		});
+		return false;
+	});
 	var show = true;
     var countbox = "#counts";
     $(window).on("scroll load resize", function(){
