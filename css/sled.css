@@ -1,0 +1,75 @@
+.menu_sled {
+	/*background-color: #4aaad2;*/
+	position: relative;
+	color: black;
+	margin-bottom: 10px;
+	text-align: center;
+	width: 100%
+	line-height: 10px;
+	top: 0;
+}
+.menu_sled a {
+	color: black;
+	padding: 16px;
+	display: block;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+
+}
+.menu_sled a:hover {
+	background-color: lightgrey;
+
+}
+.menu_sled ul,
+.menu_sled li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-transform: uppercase;
+	z-index: 12;
+	background-color: white;
+}
+.menu_sled li {
+	display: inline-block;
+}
+.sec {
+	min-height: 700px;
+
+}
+/*.top_btn {
+	bottom: 20px;
+	right: 20px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	position: fixed;
+	font-size: 40px;
+	color: black;
+	padding-top: 4px;
+}*/
+.top_btn {
+	bottom: 20px;
+right: 20px;
+/*width: 50px;
+		height: 50px;*/
+text-align: center;
+line-height: 50px;
+position: fixed;
+border: 2px solid #000000;
+color: black;
+border-radius: 50px 5px 50px 50px;
+-webkit-border-radius: 50px 5px 50px 50px;
+-moz-border-radius: 50px 5px 50px 50px;
+font-family: Verdana;
+width: 60px;
+height: 60px;
+font-size: 40px;
+/*padding: 40px 40px;*/
+padding-top: 7px;
+background-color: #8AD4A7;
+}
+
+
+

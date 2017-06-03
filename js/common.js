@@ -4,13 +4,7 @@ $(document).ready(function() {
 		$(this).next().slideToggle();
 
 		$(".top_links").css("display","inline");
-		// $(".top_links").toggle(
-		// 	function(){
-		// 		$(this).hide(".top_links",{direction:"right"},1000);
-		// },
-		// function(){
-		// 	$(this).show(".top_links",{direction:"right"},1000);
-		// });
+		
 	});
 	$(".main_menu_button").click(function(){
 		$(".maian_mnu ul").slideToggle();
@@ -155,5 +149,24 @@ $("#dogovor").submit(function() {
             show = false;
         }
     });
+    // YANDEX MAPS
+   ymaps.ready(init);
+    var myMap, myPlacemark;
 
+    function init(){     
+        myMap = new ymaps.Map("map", {
+            center: [47.23697278, 39.71240028],
+            zoom: 17
+        });
+        myPlacemark = new ymaps.Placemark([47.23697278, 39.71240028],
+        	 {
+		         hintContent: 'archiTECH', 
+		         balloonContent: 'Ростов-на-Дону, пл. Гагарина д.1, Режим работы: 24/7' 
+     		});
+        myMap.geoObjects.add(myPlacemark);
+    }
+
+    // сайдбаp
+  
+     
 });

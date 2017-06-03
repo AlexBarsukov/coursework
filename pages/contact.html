@@ -7,7 +7,7 @@
 <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
-	<title>О нас</title>
+	<title>Контакты</title>
 	<meta name="description" content="" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,11 +20,12 @@
 	<link rel="stylesheet" href="../css/fonts.css" />
 	<link rel="stylesheet" href="../css/main.css" />
 	<link rel="stylesheet" href="../css/media.css" />
+	<!-- YANDEX MAPS API -->
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 </head>
 <body>
+<!-- HEADER -->
 	<header class = "top_header">
-			
-
 		<div class="header_topline">
 			<div class="container">
 				<div class="col-md-12">
@@ -81,13 +82,14 @@
 							</ul>
 							<div class="top_contacts"><i class="fa fa-phone" aria-hidden="true"></i>        8-800-111-55-11</div>
 						</nav>
+						
+						
 				</div>
 			</div>
 		</div>	
 	</header>
-	<h1 class="stat_text">История компании</h1>
-	<h6>archiTECH - еще никем не основанная архитектурная студия. Если бы мы существовали, то стали бы крупнейшей компанией с огромным портфелем заказов. На данный момент, кроме сайта у нас ничего нет и вряд ли когда то будет. Это всего лишь курсовая работа студента одной из Российских Шараг</h6>
-	<!-- кнопки -->
+<!-- END HEADER -->
+	<!-- BUTTONS -->
 	<section class="buttons">
 		<div class="container">
 			<div class="row">
@@ -108,104 +110,19 @@
 			</div>
 		</div>
 	</section>
-	<h1 class="stat_text">Статистика</h1>
-	<section class="order_stat" id="counts">
-		<div class="container">
-			<div class="row">
-				<!-- <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"> -->
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-					<center>
-						<div class="stat">
-						<b class="numbers spincrement">2000</b>
-						<br>
-						Год основания
-						</div>
-					</center>
-				</div>
-<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-					<center>
-						<div class="stat">
-						<b class="numbers spincrement">3000</b>
-						<br>
-						 Количество проектов
-						</div>
-					</center>
-				</div>
-
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-					<center>
-						<div class="stat">
-						<b class="numbers spincrement">150</b>
-						<br>
-						<center>Количество стран</center>
-						
-						</div>
-					</center>
-				</div>
-
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-					<center>
-						<div class="stat">
-						<b class="numbers spincrement">600000</b>
-						<br>
-						<center>Площадь работ,км<sup>2</sup></center>
-						
-						</div>
-					</center>
-				</div>
-			</div>
-		</div>
-	</section>
-<h1 class="stat_text">Сотрудники</h1>
-	<section class="order">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<div class="image_about"><a href="#"><img src="../img/1sotr.jpg" class="img-responsive" ></a></div>
-							<center>
-								<div class="under_pic">
-								<h6 class="links"><a href="http://vk.com/id0" target="_blank">Иванов Иван</a><br>Наш потенциальный руководитель</h6>
-								</div>
-							</center>
-				</div>
-
-				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<div class="image_about"><a href="#"><img src="../img/2sotr.jpg" class="img-responsive" ></a></div>
-							<center>
-								<div class="under_pic">
-								<h6 class="links"><a href="http://vk.com/id0" target="_blank">Иванов Иван</a><br>Архитектор. Специализируется на всех стилях</h6>
-								</div>
-							</center>
-				</div>
-
-				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<div class="image_about"><a href="#"><img src="../img/3sotr.jpg" class="img-responsive" ></a></div>
-							<center>
-								<div class="under_pic">
-								<h6 class="links"><a href="http://vk.com/id0" target="_blank">Иванов Иван</a><br>Идейный вдохновитель</h6>
-								</div>
-							</center>
-				</div>
-
-				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<div class="image_about"><a href="#"><img src="../img/4sotr.jpg" class="img-responsive" ></a></div>
-							<center>
-								<div class="under_pic">
-								<h6 class="links"><a href="http://vk.com/id0" target="_blank">Иванов Иван</a><br>Архитектор. Специализируется на всех стилях</h6>
-								</div>
-							</center>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- СТАТИСТИКА -->
+	<!-- END BUTTONS -->
 	
+	<!-- МЕСТО ДЛЯ ИНФОРМАЦИИ --> 
+<h1 class="stat_text">Наш офис</h1>
+<div id="map" class="mymap"></div>
+
+	<!-- FOOTER -->	
 	<footer class = "top_header">
 			<div class="header_topline">
 			<h6>Сайт разработан в качестве курсового проекта. Не имеет ничего общего с действительностью. 2017г</h6>			
 			</div>
 	</footer>
+	<!-- END FOOTER -->
 
 				
 					

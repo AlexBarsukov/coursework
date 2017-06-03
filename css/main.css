@@ -326,4 +326,57 @@ font-size: 50px;
  .text_sotr{
  	padding-top: 0;
  }
+ .mymap{
+ 	height: 500px;
+ 	padding: 50px;
+ }
+ /*-------------САЙДБАР----------------*/
+ 
+.sidebar{
+	float: left;
+	width: 30%;
+	margin-bottom: 10px; 
 
+}
+.content{
+	float: left;
+	width: 70%;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	
+	
+}
+.inner-sidebar{
+	/*background: red;*/
+	min-height: 500px; 
+
+}
+.inner-content{
+	background: blue;
+	min-height: 500px;
+
+
+}
+.namestyle{
+	margin: 0;
+	border-bottom: 1px solid black;
+}
+
+.namestyle_font{
+	font-family: "RobotoCondensedLight";
+	font-size: 30px;
+	font-weight: 600;
+	padding: 0;
+	text-transform: uppercase;
+}
+/*hr{
+	top:10;
+	size: 30px;
+	color: red;
+}*/
+.text_style{
+	font-family: "RobotoCondensedLight";
+	font-size: 14px;
+	text-align: left;
+	text-transform: uppercase;
+}
