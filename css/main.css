@@ -81,7 +81,15 @@ body {
 	font-size: 60px;
 	text-align: center;
 }
-
+.logot {
+	display: block;
+	padding: 15px ;
+	margin-top: 15px;
+	color: black;
+	font-family: "ACLineRegular";
+	font-size: 60px;
+	text-align: center;
+}
 
 .top_header{
 		background-color: white;
@@ -338,6 +346,14 @@ font-size: 50px;
 	margin-bottom: 10px; 
 
 }
+.sidebar_usl{
+	float: left;
+	width: 30%;
+	margin-bottom: 10px; 
+
+}
+
+
 .content{
 	float: left;
 	width: 70%;
@@ -379,4 +395,34 @@ font-size: 50px;
 	font-size: 14px;
 	text-align: left;
 	text-transform: uppercase;
+}
+.maian_mnuu{
+	/*background-color: #4aaad2;*/
+	color: black;
+	margin-bottom: 10px;
+}
+.maian_mnuu a {
+	color: black;
+	padding: 16px;
+	display: block;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+
+}
+.maian_mnuu a:hover {
+	background-color: lightgrey;
+
+}
+.maian_mnuu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+	text-transform: uppercase;
+	z-index: 12;
+	background-color: white;
+}
+.maian_mnuu ul li {
+	display:block;
 }

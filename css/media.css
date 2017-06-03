@@ -49,16 +49,33 @@
 	overflow: hidden;
 	text-align: center;
 	}
-
-	.menu_sled {
-	/*background-color: #4aaad2;*/
-	position: relative;
-	color: black;
-	margin-bottom: 10px;
-	text-align: center;
-	width: 100%
-	line-height: 10px;
-	top: 0;
+	.topside_btn{
+		display: block;
+	}
+	.sidebar {
+		position: fixed;
+		left:-350px;
+		width: 250px;
+		height: 310px;
+		bottom:10px;
+	}
+	.sidebar.active {
+		left: 0;
+	}
+	.side_content{
+		margin-left: 0;
+	}
+/*УСЛУГИ*/
+	.sidebar_usl {
+		position: fixed;
+		left:-350px;
+		width: 250px;
+		height: 400px;
+		bottom:10px;
+	}
+	.sidebar_usl.active {
+		left: 0;
+	}
 	
 
 }
