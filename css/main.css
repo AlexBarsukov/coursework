@@ -426,3 +426,7 @@ font-size: 50px;
 .maian_mnuu ul li {
 	display:block;
 }
+
+.link_color {
+	color: black;
+}
