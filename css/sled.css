@@ -3,7 +3,7 @@
 	position: relative;
 	color: black;
 	margin-bottom: 10px;
-	text-align: left;
+	text-align: center;
 	width: 100%
 	line-height: 10px;
 	top: 0;
@@ -98,7 +98,7 @@
 .side_content{
 	margin-left: 300px;
 	padding: 20px;
-	background-color: lightgrey;
+	background-color: white;
     margin-bottom: 10px;
 }
 .topside_btn {
